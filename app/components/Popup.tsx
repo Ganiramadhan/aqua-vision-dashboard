@@ -76,7 +76,7 @@ export default function Popup() {
           </ul>
 
           <button
-            onClick={() => router.push('/products')}
+            onClick={() => router.push('/dashboard')}
             onMouseOver={(e) => {
               e.currentTarget.style.backgroundColor = '#0284c7'
               e.currentTarget.style.transform = 'scale(1.05)'
@@ -100,7 +100,7 @@ export default function Popup() {
               boxShadow: '0 4px 14px rgba(14,165,233,0.3)',
             }}
           >
-            Explore Products
+            Explore Dashboard
           </button>
         </div>
 
